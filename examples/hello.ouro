@@ -1,0 +1,10 @@
+require io
+require rng
+
+func int main(int argc, char **argv) open
+    while true open
+        io:println(rng:int_range(0, 70))
+        io:getln()
+    end
+    return 0
+end

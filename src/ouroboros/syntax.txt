@@ -1,0 +1,18 @@
+require io
+
+func int main(int argc, char **argv) open
+    io:println("Hello, World!")
+    string name = io:getln()
+    io:println(name)
+    io:println(52)
+
+    while true open
+        name = io:getln()
+        io:println(name)
+        if name == "Parrot" open
+            return 0
+        end
+    end
+
+end
+
